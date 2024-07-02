@@ -25,6 +25,7 @@
 }
 body{
     background: #f6f6f6;
+
 }
 .header{
     display: block;
@@ -119,6 +120,39 @@ body{
     background-color: #fff;
     color:#2290ff;
 }
+.btn{
+    background-color: #fff;
+    color: #a0a0a0;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-family: 'regular';
+    font-weight: 400;
+    border:1px solid #a0a0a0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.btn-content{
+    display:none;
+    position: absolute;
+    background-color:#fff;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.btn-content a{
+    color:#fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.btn:hover .btn-content {
+    display: block;
+    cursor: pointer;
+}
 
 .topright{
     display:flex;
@@ -136,20 +170,6 @@ body{
     font-family: 'regular';
     font-size: 14px;
     font-weight: 600;
-}
-.symbol{
-    width:24px;
-    height:24px;
-    padding: 1px 0px 0px;
-    border: 1px solid #a0a0a0;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 14px;
-    font-size: 14px;
-    color:#a0a0a0;
 }
 .leftsection{
     width:280px;
@@ -395,6 +415,8 @@ body{
     padding: 0px;
     border-radius: 3px;
     background-color: #fff;
+    transition: all ease .30s;
+    transform: translateY(5px);
 }
 .topmeet{
     padding: 15px;
@@ -545,6 +567,8 @@ body{
     padding: 0px;
     border-radius: 3px;
     background-color: #fff;
+    transition: all ease .35s;
+    transform: translateY(5px);
 }
 .topmeet1,.topmeet2{
     padding: 15px;
@@ -695,6 +719,8 @@ body{
     padding: 0px;
     border-radius: 3px;
     background-color: #fff;
+    transition: all ease .40s;
+    transform: translateY(5px);
 }
 .imgdiv2{
     width:80px;
@@ -776,6 +802,8 @@ body{
     padding: 0px;
     border-radius: 3px;
     background-color: #fff;
+    transition: all ease .45s;
+    transform: translateY(5px);
 }
 .topmeet3,.topmeet4,.topmeet5{
     padding: 15px;
@@ -926,6 +954,8 @@ body{
     padding: 0px;
     border-radius: 3px;
     background-color: #fff;
+    transition: all ease .50s;
+    transform: translateY(5px);
 }
 .imgdiv4{
     width:80px;
@@ -1007,6 +1037,8 @@ body{
     padding: 0px;
     border-radius: 3px;
     background-color: #fff;
+    transition: all ease .55s;
+    transform: translateY(5px);
 }
 .imgdiv5{
     width:80px;
@@ -1077,4 +1109,64 @@ body{
     color:#6d6d6d;
     text-align: center;
     text-decoration: none;
+}
+.main{
+    position: relative;
+}
+.inbox{
+    position:fixed;
+    right: 15px;
+    bottom:15px;
+    z-index:500;
+    width:50px;
+    height:50px;
+    background-image: linear-gradient(180deg, #2290ff, #2290ff);
+    box-shadow: 0 0 20px 0 hsla(0, 0%, 63%, .86);
+    border-radius: 50%;
+    color:#f6f6f6;
+    text-decoration: none;
+}
+.bell{
+    padding-top: 14px;
+    text-align: center;
+}
+.inbox:hover{
+    background: #fff;
+    color: #2290ff;
+}
+.bottommeet:hover{
+    background-color: #2290ff;
+}
+.details:hover{
+    color:#fff;
+}
+.bottommeet1:hover{
+    background-color: #2290ff;
+}
+.details1:hover{
+    color:#fff;
+}
+.bottommeet2:hover{
+    background-color: #2290ff;
+}
+.details2:hover{
+    color:#fff;
+}
+.bottommeet3:hover{
+    background-color: #2290ff;
+}
+.details3:hover{
+    color:#fff;
+}
+.bottommeet4:hover{
+    background-color: #2290ff;
+}
+.details4:hover{
+    color:#fff;
+}
+.bottommeet5:hover{
+    background-color: #2290ff;
+}
+.details5:hover{
+    color:#fff;
 }
