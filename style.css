@@ -245,7 +245,7 @@ body{
     padding-right: 40px;
 }
 .main{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 .mainsection{
