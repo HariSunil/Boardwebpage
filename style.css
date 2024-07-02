@@ -246,6 +246,7 @@ body{
 }
 .main{
     display: inline-flex;
+    justify-content: center;
 }
 .mainsection{
     width:700px;
