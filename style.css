@@ -25,7 +25,9 @@
 }
 body{
     background: #f6f6f6;
-
+    padding: 0 16px;
+    width:1200px;
+    margin: 0 auto;
 }
 .header{
     display: block;
