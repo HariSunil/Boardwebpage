@@ -178,7 +178,7 @@ body{
     font-weight: 600;
 }
 .leftsection{
-    width:280px;
+    width:240px;
     margin-left: 40px;
     border:none;
     padding-top: 25px;
@@ -253,7 +253,7 @@ body{
     display: flex;
 }
 .mainsection{
-    width:700px;
+    width:600px;
     padding-bottom: 20px;
     padding-left: 20px;
     display: inline-block;
@@ -265,7 +265,7 @@ body{
     font-size: 24px;
 }
 .subsection{
-    width:880px;
+    width:815px;
     height:100px;
     border:none;
     margin-top: 20px;
@@ -412,8 +412,8 @@ body{
     display:inline-flex;
 }
 .meeting1{
-    width:300px;
-    height:240px;
+    width:264px;
+    height:270px;
     margin-bottom: 5px;
     border: none;
     margin-right: 5px;
@@ -436,7 +436,7 @@ body{
     background-position: 50% 50%;
     background-size: cover;
     float:left;
-    margin-right: 12px;
+    margin-right: 4px;
     margin-left: 10px;
 }
 .meet-contain{
@@ -455,6 +455,7 @@ body{
     font-family: 'light';
     color: #a0a0a0;
     margin-left: 24px;
+    margin-bottom: 8px;
 }
 .meettime{
     font-family: 'regular';
@@ -464,7 +465,7 @@ body{
     margin-right: 20px;
 }
 .middlemeet{
-    padding: 10px;
+    padding: 20px;
     border-top:1px solid #f6f6f6;
     border-bottom: 1px solid #f6f6f6;
 }
@@ -560,12 +561,12 @@ body{
     font-size: 14px;
     font-family: 'regular';
     font-weight: 300;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .meeting2{
-    width:300px;
-    height:240px;
+    width:264px;
+    height:270px;
     margin-bottom: 5px;
     border: none;
     margin-right: 5px;
@@ -588,55 +589,56 @@ body{
     background-position: 50% 50%;
     background-size: cover;
     float:left;
-    margin-right: 12px;
+    margin-right: 8px;
     margin-left: 10px;
 }
-.meet-contain1,.meet-contain2{
+.meet-contain1{
      margin-top: 8px;
 }
-.meettitle1,.meettitle2{
+.meettitle1{
     margin-bottom: 8px;
-    margin-right: 4px;
+    margin-right: 2px;
     font-family: 'light';
     font-weight: 600;
     font-size: 12px;
 }
-.meetemail1,.meetemail2{
+.meetemail1{
     font-size: 12px;
     font-weight: 500;
     font-family: 'light';
     color: #a0a0a0;
-    margin-left: 24px;
+    margin-left: 20px;
+    margin-bottom: 8px;
 }
-.meettime1,.meettime2{
+.meettime1{
     font-family: 'regular';
     font-weight: 300;
     font-size: 16px;
     color:#a0a0a0;
     margin-right: 20px;
 }
-.middlemeet1,.middlemeet2{
-    padding: 10px;
+.middlemeet1{
+    padding: 20px;
     border-top:1px solid #f6f6f6;
     border-bottom: 1px solid #f6f6f6;
 }
-.mid-col1,.mid-col2{
+.mid-col1{
     display: flex;
     justify-content: space-around;
 }
-.member1,.member2{
+.member1{
     font-size: 12px;
     font-family: 'light';
     font-weight: 600;
     color:#22aeff;
 }
-.pending-mem1,.pending-mem2{
+.pending-mem1{
     font-size: 12px;
     font-family: 'light';
     font-weight: 600;
     color:red;
 }
-.m-column1,.m-column2{
+.m-column1{
     display: flex;
     justify-content: space-around;
 }
@@ -692,7 +694,7 @@ body{
     background-position: 50% 50%;
     background-size: cover;
 }
-.people1,.people2{
+.people1{
     font-size: 11px;
     font-weight: 500;
     font-family: 'regular';
@@ -708,16 +710,16 @@ body{
     text-align: center;
     text-decoration: none;
 }
-.details1,.details2{
+.details1{
     font-size: 14px;
     font-family: 'regular';
     font-weight: 300;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .meeting3{
-    width:300px;
-    height:240px;
+    width:264px;
+    height:270px;
     margin-bottom: 5px;
     border: none;
     margin-right: 5px;
@@ -736,8 +738,58 @@ body{
     background-position: 50% 50%;
     background-size: cover;
     float:left;
-    margin-right: 12px;
+    margin-right: 6px;
     margin-left: 10px;
+}
+.meet-contain2{
+    margin-top: 8px;
+}
+.meettitle2{
+   margin-bottom: 8px;
+   margin-right: 25px;
+   font-family: 'light';
+   font-weight: 600;
+   font-size: 12px;
+}
+.meetemail2{
+   font-size: 12px;
+   font-weight: 500;
+   font-family: 'light';
+   color: #a0a0a0;
+   margin-left: 22px;
+   margin-bottom: 8px;
+}
+.meettime2{
+   font-family: 'regular';
+   font-weight: 300;
+   font-size: 16px;
+   color:#a0a0a0;
+   margin-right: 35px;
+}
+.middlemeet2{
+   padding: 20px;
+   border-top:1px solid #f6f6f6;
+   border-bottom: 1px solid #f6f6f6;
+}
+.mid-col2{
+   display: flex;
+   justify-content: space-around;
+}
+.member2{
+   font-size: 12px;
+   font-family: 'light';
+   font-weight: 600;
+   color:#22aeff;
+}
+.pending-mem2{
+   font-size: 12px;
+   font-family: 'light';
+   font-weight: 600;
+   color:red;
+}
+.m-column2{
+   display: flex;
+   justify-content: space-around;
 }
 .pic9{
     position: relative;
@@ -791,6 +843,15 @@ body{
     background-position: 50% 50%;
     background-size: cover;
 }
+.people2{
+    font-size: 11px;
+    font-weight: 500;
+    font-family: 'regular';
+    color:#a0a0a0;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 40px;
+}
 .bottommeet2 a{
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -798,9 +859,17 @@ body{
     text-align: center;
     text-decoration: none;
 }
+.details2{
+    font-size: 14px;
+    font-family: 'regular';
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .meeting4{
-    width:300px;
-    height:240px;
+    width:264px;
+    height:270px;
     margin-bottom: 5px;
     border: none;
     margin-right: 5px;
@@ -842,16 +911,17 @@ body{
     font-family: 'light';
     color: #a0a0a0;
     margin-left: 24px;
+    margin-bottom: 8px;
 }
 .meettime3,.meettime4,.meettime5{
     font-family: 'regular';
     font-weight: 300;
     font-size: 16px;
     color:#a0a0a0;
-    margin-right: 20px;
+    margin-right: 16px;
 }
 .middlemeet3,.middlemeet4,.middlemeet5{
-    padding: 10px;
+    padding: 20px;
     border-top:1px solid #f6f6f6;
     border-bottom: 1px solid #f6f6f6;
 }
@@ -947,12 +1017,12 @@ body{
     font-size: 14px;
     font-family: 'regular';
     font-weight: 300;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .meeting5{
-    width:300px;
-    height:240px;
+    width:264px;
+    height:270px;
     margin-bottom: 5px;
     border: none;
     margin-right: 5px;
@@ -1034,8 +1104,8 @@ body{
     text-decoration: none;
 }
 .meeting6{
-    width:300px;
-    height:240px;
+    width:264px;
+    height:270px;
     margin-bottom: 5px;
     border: none;
     margin-right: 5px;
@@ -1045,6 +1115,9 @@ body{
     background-color: #fff;
     transition: all ease .55s;
     transform: translateY(5px);
+}
+.meettitle5{
+    margin-right: 24px;
 }
 .imgdiv5{
     width:80px;
