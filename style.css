@@ -1251,7 +1251,7 @@ body{
         display:none;
     }
     .head{
-        width:530px;
+        width:480px;
         margin-bottom: 20px;
     }
     .logotext{
@@ -1259,6 +1259,10 @@ body{
         margin-left: -50px;
         font-size: 22px;
         margin-bottom: 30px;
+    }
+    .mtoday p{
+        margin-left: 30px;
+        font-size: 24px;
     }
     .dropdown{
         display:none;
@@ -1290,7 +1294,7 @@ body{
         margin-left: 40px;
     }
     .subsection{
-        width:480px;
+        width:430px;
     }
     #mainmeet {
         margin-left: 25px;
@@ -1302,9 +1306,13 @@ body{
     .meetemail,.meetemail1,.meetemail2,.meetemail3,.meetemail4,.meetemail5{
         font-size: 18px;
     }
+    .Tmeeting{
+        display:block;
+        padding-inline: 50px;
+    }
     .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
-        width:100px;
-        height:380px;
+         width:400px; 
+        height:400px; 
     }
 }
 @media (max-width:767px){
@@ -1323,10 +1331,10 @@ body{
     .content{
         flex-basis: 40%;
     }
-    .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
-        width:170px;
-        height:400px;
-    }
+    /* .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{ */
+        /* width:170px; */
+        /* height:400px; */
+    /* } */
 }
 @media(max-width:991px){
     .leftsection{
