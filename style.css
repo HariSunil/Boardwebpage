@@ -178,7 +178,7 @@ body{
     font-weight: 600;
 }
 .leftsection{
-    width:240px;
+    width:500px;
     margin-left: 40px;
     border:none;
     padding-top: 25px;
@@ -253,7 +253,6 @@ body{
     display: flex;
 }
 .mainsection{
-    width:600px;
     padding-bottom: 20px;
     padding-left: 20px;
     display: inline-block;
@@ -408,8 +407,12 @@ body{
     font-size: 14px;
     color:#333;
 }
-.Tmeeting,.Tmeeting1{
-    display:inline-flex;
+.Tmeeting{
+     width:100%;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
 }
 .meeting1{
     width:264px;
@@ -435,7 +438,6 @@ body{
     background-image: url(./images/pic1.jpeg);
     background-position: 50% 50%;
     background-size: cover;
-    float:left;
     margin-right: 4px;
     margin-left: 10px;
 }
@@ -588,7 +590,6 @@ body{
     background-image: url(./images/pic2.png);
     background-position: 50% 50%;
     background-size: cover;
-    float:left;
     margin-right: 8px;
     margin-left: 10px;
 }
@@ -737,7 +738,6 @@ body{
     background-image: url(./images/pic3.png);
     background-position: 50% 50%;
     background-size: cover;
-    float:left;
     margin-right: 6px;
     margin-left: 10px;
 }
@@ -891,7 +891,6 @@ body{
     background-image: url(./images/pic4.jpeg);
     background-position: 50% 50%;
     background-size: cover;
-    float:left;
     margin-right: 12px;
     margin-left: 10px;
 }
@@ -1040,7 +1039,6 @@ body{
     background-image: url(./images/pic5.png);
     background-position: 50% 50%;
     background-size: cover;
-    float:left;
     margin-right: 12px;
     margin-left: 10px;
 }
@@ -1126,7 +1124,6 @@ body{
     background-image: url(./images/pic6.jpeg);
     background-position: 50% 50%;
     background-size: cover;
-    float:left;
     margin-right: 12px;
     margin-left: 10px;
 }
@@ -1248,4 +1245,112 @@ body{
 }
 .details5:hover{
     color:#fff;
+}
+@media (max-width:479px){
+    .leftsection{
+        display:none;
+    }
+    .head{
+        width:530px;
+        margin-bottom: 20px;
+    }
+    .logotext{
+        margin-top: 95px;
+        margin-left: -50px;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .dropdown{
+        display:none;
+    }
+    .topright img{
+        margin-left: -200px;
+        width:60px;
+        height: 60px;
+    }
+    .text{
+        margin-left: -120px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #txtmeet,#txtmeet1,#txtmeet2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .search{
+        width:150px;
+        height: 60px;
+        margin-top: 75px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+    .btn{
+        margin-top: 90px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    .subsection{
+        width:480px;
+    }
+    #mainmeet {
+        margin-left: 25px;
+    }
+    .meettitle,.meettitle1,.meettitle2,.meettitle3,.meettitle4,.meettitle5{
+        font-size:18px;
+        text-align: center;
+    }
+    .meetemail,.meetemail1,.meetemail2,.meetemail3,.meetemail4,.meetemail5{
+        font-size: 18px;
+    }
+    .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
+        width:100px;
+        height:380px;
+    }
+}
+@media (max-width:767px){
+    .topmeet,.topmeet1,.topmeet2,.topmeet3,.topmeet4,.topmeet5{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .imgdiv,.imgdiv1,.imgdiv2,.imgdiv3,.imgdiv4,.imgdiv5{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:120px;
+        height:120px;
+    }
+    .content{
+        flex-basis: 40%;
+    }
+    .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
+        width:170px;
+        height:400px;
+    }
+}
+@media(max-width:991px){
+    .leftsection{
+        display:none;
+    }
+    .subsection{
+         height:190px;
+         margin-left: 25px;
+
+    }
+    .group1,.group2,.group3{
+        width:40px;
+        height:40px;
+        display:block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-block: 20px;
+    }
+    .txt,.txt1,.txt2{
+        margin-left: -40px;
+        padding-top: 40px;
+    }
+    .m-section{
+        justify-content: space-around;
+    }
+    
 }
