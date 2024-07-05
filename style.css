@@ -1321,6 +1321,31 @@ body{
         margin-right: auto;
         margin-left: auto;
     }
+    .head{
+        width:800px;
+        margin-bottom: 20px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .search{
+        width:150px;
+        height: 60px;
+    }
+    #mainmeet{
+        margin-left: 30px;
+    }
+    .subsection{
+        width:760px;
+    }
+    .Tmeeting{
+        width:90%;
+        margin-inline: 10px;
+    }
+    .mtoday p{
+        margin-left: 20px;
+        font-size: 22px;
+    }
     .imgdiv,.imgdiv1,.imgdiv2,.imgdiv3,.imgdiv4,.imgdiv5{
         display: block;
         margin-left: auto;
@@ -1331,17 +1356,16 @@ body{
     .content{
         flex-basis: 40%;
     }
-    /* .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{ */
-        /* width:170px; */
-        /* height:400px; */
-    /* } */
+     .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{ 
+         height:420px; 
+     } 
 }
 @media(max-width:991px){
     .leftsection{
         display:none;
     }
     .subsection{
-         height:190px;
+         height:200px;
          margin-left: 25px;
 
     }
