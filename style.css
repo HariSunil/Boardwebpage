@@ -23,10 +23,10 @@
     font-family: 'thin';
     src:url(./fonts/Lato-Thin.ttf);
 }
-body{
+.container{
     background: #f6f6f6;
     padding:0 40px;
-    width:1200px;
+    width:100%;
     margin: 0 auto;
 }
 .head{
@@ -264,7 +264,7 @@ body{
     font-size: 24px;
 }
 .subsection{
-    width:815px;
+    width:870px;
     height:100px;
     border:none;
     margin-top: 20px;
@@ -415,7 +415,7 @@ body{
      flex-direction: row;
 }
 .meeting1{
-    width:264px;
+    width:280px;
     height:270px;
     margin-bottom: 5px;
     border: none;
@@ -567,7 +567,7 @@ body{
     padding-bottom: 20px;
 }
 .meeting2{
-    width:264px;
+    width:280px;
     height:270px;
     margin-bottom: 5px;
     border: none;
@@ -719,7 +719,7 @@ body{
     padding-bottom: 20px;
 }
 .meeting3{
-    width:264px;
+    width:290px;
     height:270px;
     margin-bottom: 5px;
     border: none;
@@ -868,7 +868,7 @@ body{
 }
 
 .meeting4{
-    width:264px;
+    width:280px;
     height:270px;
     margin-bottom: 5px;
     border: none;
@@ -1020,7 +1020,7 @@ body{
     padding-bottom: 20px;
 }
 .meeting5{
-    width:264px;
+    width:280px;
     height:270px;
     margin-bottom: 5px;
     border: none;
@@ -1102,7 +1102,7 @@ body{
     text-decoration: none;
 }
 .meeting6{
-    width:264px;
+    width:290px;
     height:270px;
     margin-bottom: 5px;
     border: none;
@@ -1247,16 +1247,20 @@ body{
     color:#fff;
 }
 @media (max-width:479px){
+    body{
+        width:100%;
+    }
     .leftsection{
         display:none;
     }
     .head{
-        width:480px;
+        width:390px;
         margin-bottom: 20px;
+        margin-left: -20px;
     }
     .logotext{
         margin-top: 95px;
-        margin-left: -50px;
+        margin-left: -10px;
         font-size: 22px;
         margin-bottom: 30px;
     }
@@ -1294,7 +1298,11 @@ body{
         margin-left: 40px;
     }
     .subsection{
-        width:430px;
+        width:340px;
+        margin-left: -25px;
+    }
+    .m-section{
+        padding-inline: 10px;
     }
     #mainmeet {
         margin-left: 25px;
@@ -1308,11 +1316,17 @@ body{
     }
     .Tmeeting{
         display:block;
-        padding-inline: 50px;
+        padding-inline: 20px;
     }
     .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
-         width:400px; 
+         width:320px; 
         height:400px; 
+    }
+    .txt{
+        padding-right: 20px;
+    }
+    .txt2{
+        padding-left: 26px;
     }
 }
 @media (max-width:767px){
@@ -1322,7 +1336,7 @@ body{
         margin-left: auto;
     }
     .head{
-        width:800px;
+        /* width:800px; */
         margin-bottom: 20px;
     }
     .dropdown{
@@ -1336,7 +1350,7 @@ body{
         margin-left: 30px;
     }
     .subsection{
-        width:760px;
+        /* width:760px; */
     }
     .Tmeeting{
         width:90%;
@@ -1366,7 +1380,7 @@ body{
     }
     .subsection{
          height:200px;
-         margin-left: 25px;
+         /* margin-left: 25px; */
 
     }
     .group1,.group2,.group3{
