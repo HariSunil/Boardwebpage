@@ -1254,7 +1254,7 @@
         display:none;
     }
     .head{
-        width:390px;
+        width:370px;
         margin-bottom: 20px;
         margin-inline: -30px;
     }
@@ -1298,7 +1298,7 @@
         margin-left: 40px;
     }
     .subsection{
-        width:340px;
+        width:330px;
         margin-inline: -10px;
     }
     .m-section{
@@ -1331,17 +1331,16 @@
     }
 }
 @media (max-width:767px){
+    .dropdown{
+        display:none;
+    }
     .topmeet,.topmeet1,.topmeet2,.topmeet3,.topmeet4,.topmeet5{
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
     .head{
-        /* width:800px; */
         margin-bottom: 20px;
-    }
-    .dropdown{
-        display: none;
     }
     .search{
         width:150px;
