@@ -1248,7 +1248,7 @@
 }
 @media (max-width:479px){
     body{
-        width:100%;
+        background-color:#f6f6f6;
     }
     .leftsection{
         display:none;
@@ -1256,7 +1256,7 @@
     .head{
         width:390px;
         margin-bottom: 20px;
-        margin-left: -20px;
+        margin-inline: -30px;
     }
     .logotext{
         margin-top: 95px;
@@ -1299,7 +1299,7 @@
     }
     .subsection{
         width:340px;
-        margin-left: -25px;
+        margin-inline: -10px;
     }
     .m-section{
         padding-inline: 10px;
@@ -1320,7 +1320,8 @@
     }
     .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
          width:320px; 
-        height:400px; 
+         height:400px; 
+         margin-inline: -30px;
     }
     .txt{
         padding-right: 20px;
@@ -1376,6 +1377,9 @@
 }
 @media(max-width:991px){
     .leftsection{
+        display:none;
+    }
+    .dropdown{
         display:none;
     }
     .subsection{
