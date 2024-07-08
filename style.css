@@ -25,7 +25,7 @@
 }
 .container{
     background: #f6f6f6;
-    padding:0 40px;
+    padding:0 20px;
     width:100%;
     margin: 0 auto;
 }
@@ -1256,7 +1256,8 @@
     .head{
         width:390px;
         margin-bottom: 20px;
-        margin-inline: -30px;
+        margin-left: -40px;
+    
     }
     .logotext{
         margin-top: 95px;
@@ -1298,9 +1299,9 @@
         margin-left: 40px;
     }
     .subsection{
-        width:330px;
+        width:350px;
         height:200px;
-        margin-inline: 10px;
+        margin-left: -20px;
     }
     #mainmeet {
         margin-left: 10px;
@@ -1318,8 +1319,8 @@
     }
     .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
          width:340px; 
-         height:300px; 
-         margin-inline: -30px;
+         height:290px; 
+         margin-inline: -50px;
     }
     .txt{
         padding-right: 20px;
