@@ -1102,7 +1102,7 @@
     text-decoration: none;
 }
 .meeting6{
-    width:290px;
+    width:300px;
     height:270px;
     margin-bottom: 5px;
     border: none;
@@ -1246,7 +1246,7 @@
 .details5:hover{
     color:#fff;
 }
-@media (max-width:479px){
+@media (min-width:300px) and (max-width:479px){
     body{
         background-color:#f6f6f6;
     }
@@ -1254,7 +1254,7 @@
         display:none;
     }
     .head{
-        width:370px;
+        width:390px;
         margin-bottom: 20px;
         margin-inline: -30px;
     }
@@ -1299,13 +1299,11 @@
     }
     .subsection{
         width:330px;
-        margin-inline: -10px;
-    }
-    .m-section{
-        padding-inline: 10px;
+        height:200px;
+        margin-inline: 10px;
     }
     #mainmeet {
-        margin-left: 25px;
+        margin-left: 10px;
     }
     .meettitle,.meettitle1,.meettitle2,.meettitle3,.meettitle4,.meettitle5{
         font-size:18px;
@@ -1316,11 +1314,11 @@
     }
     .Tmeeting{
         display:block;
-        padding-inline: 20px;
+        padding-inline: 30px;
     }
     .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{
-         width:320px; 
-         height:400px; 
+         width:340px; 
+         height:300px; 
          margin-inline: -30px;
     }
     .txt{
@@ -1328,63 +1326,6 @@
     }
     .txt2{
         padding-left: 26px;
-    }
-}
-@media (max-width:767px){
-    .dropdown{
-        display:none;
-    }
-    .topmeet,.topmeet1,.topmeet2,.topmeet3,.topmeet4,.topmeet5{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .head{
-        margin-bottom: 20px;
-    }
-    .search{
-        width:150px;
-        height: 60px;
-    }
-    #mainmeet{
-        margin-left: 30px;
-    }
-    .subsection{
-        /* width:760px; */
-    }
-    .Tmeeting{
-        width:90%;
-        margin-inline: 10px;
-    }
-    .mtoday p{
-        margin-left: 20px;
-        font-size: 22px;
-    }
-    .imgdiv,.imgdiv1,.imgdiv2,.imgdiv3,.imgdiv4,.imgdiv5{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width:120px;
-        height:120px;
-    }
-    .content{
-        flex-basis: 40%;
-    }
-     .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{ 
-         height:420px; 
-     } 
-}
-@media(max-width:991px){
-    .leftsection{
-        display:none;
-    }
-    .dropdown{
-        display:none;
-    }
-    .subsection{
-         height:200px;
-         /* margin-left: 25px; */
-
     }
     .group1,.group2,.group3{
         width:40px;
@@ -1400,6 +1341,133 @@
     }
     .m-section{
         justify-content: space-around;
+    }
+}
+@media (min-width:480px) and (max-width:770px){
+    body{
+        background-color: #f6f6f6;
+    }
+    .leftsection{
+        display: none;
+    }
+    .dropdown{
+        display:none;
+    }
+    .topmeet,.topmeet1,.topmeet2,.topmeet3,.topmeet4,.topmeet5{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .head{
+        width:450px;
+        margin-bottom: 20px;
+    }
+    .search{
+        width:120px;
+        height: 60px;
+        margin-left: 80px;
+    }
+    .logotext{
+        margin-left: 90px;
+    }
+    .topright{
+        margin-right: 80px;
+    }
+    .topright img{
+        margin-left: -10px;
+    }
+    #mainmeet{
+        margin-left: 30px;
+    }
+    .subsection{
+        width:420px;  
+        height: 150px;  
+        margin-inline: 20px;
+    }
+    .group1,.group2,.group3{
+        width:40px;
+        height:40px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-block: 20px;
+    }
+    .txt,.txt1,.txt2{
+        margin-left: -40px;
+        padding-top: 40px;
+    }
+    .m-section{
+        justify-content: space-around;
+    }
+    .Tmeeting{
+        margin-inline: 30px;
+    }
+    .mtoday p{
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .imgdiv,.imgdiv1,.imgdiv2,.imgdiv3,.imgdiv4,.imgdiv5{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:120px;
+        height:120px;
+    }
+      .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{  
+          width:400px;
+          height:380px; 
+      }  
+}
+@media(min-width:771px) and (max-width:991px){
+    body{
+        background: #f6f6f6;
+    }
+    .head{
+        width:650px;
+        margin-inline: 10px;
+    }
+    .leftsection{
+        display:none;
+    }
+    .search{
+        width:150px;
+    }
+    .dropdown{
+        display:none;
+    }
+    .subsection{
+        width:600px;
+        height: 150px;
+        margin-inline: 40px;
+    }
+    .Tmeeting{
+        margin-inline: 40px;
+        display:flex;
+    }
+    .meeting1,.meeting2,.meeting3,.meeting4,.meeting5,.meeting6{  
+        width:300px;
+        height:280px; 
+    }
+    .group1,.group2,.group3{
+        width:40px;
+        height:40px;
+        display:block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-block: 20px;
+    }
+    .txt,.txt1,.txt2{
+        margin-left: -40px;
+        padding-top: 40px;
+    }
+    .m-section{
+        justify-content: space-around;
+    }
+    #mainmeet{
+        margin-left: 34px;
+    }
+    .mtoday p{
+        margin-left: 40px;
     }
     
 }
